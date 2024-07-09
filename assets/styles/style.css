@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+  width: 100%;
+  color: rgb(13, 19, 33);
+  font-family: "Inter", sans-serif;
+}
+.content {
+  max-width: 998px;
+  width: 100%;
+  margin: 0 auto;
+}
+.btn {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 20px 25px;
+}
+/* header area Styles */
+#header_area {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+}
+.Download .btn {
+	box-sizing: border-box;
+	border: 1px solid rgb(13, 19, 33);
+	border-radius: 8px;
+	opacity: 0.8;
+	background: #ffffff;
+	color: rgba(13, 19, 33, 0.9);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+}
+/* Banner Area Styles */
+#Banner_Area {
+	background: url(../images/Hero-bg.png);
+	border: 2px dashed rgba(13, 19, 33, .3);
+}
+#Banner_Area .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#Banner_Area img {
+  margin: 25px auto;
+}
+#Banner_Area h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 25px;
+}
+#Banner_Area p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+#Banner_Area button {
+  margin-bottom: 40px;
+}
