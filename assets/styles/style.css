@@ -24,14 +24,7 @@ body {
   line-height: 23px;
   padding: 20px 25px;
 }
-/* header area Styles */
-#header_area {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 30px;
-  align-items: center;
-}
-.Download .btn {
+.secondary_btn {
 	box-sizing: border-box;
 	border: 1px solid rgb(13, 19, 33);
 	border-radius: 8px;
@@ -41,11 +34,20 @@ body {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 23px;
+	padding: 15px 25px;
+}
+
+/* header area Styles */
+#header_area {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
 }
 /* Banner Area Styles */
 #Banner_Area {
-	background: url(../images/Hero-bg.png);
-	border: 2px dashed rgba(13, 19, 33, .3);
+  background: url(../images/Hero-bg.png);
+  border: 2px dashed rgba(13, 19, 33, 0.3);
 }
 #Banner_Area .content {
   display: flex;
@@ -72,4 +74,52 @@ body {
 }
 #Banner_Area button {
   margin-bottom: 40px;
+}
+
+/* Reason Area Styles  */
+#Reason_Area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+	text-align: center;
+}
+#Reason_Area h3 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 25px;
+}
+#Reason_Area p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+#Reason_Area .child {
+  margin: 100px 0;
+}
+#Reason_Area .child_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 100px 0;
+}
+#Reason_Area .child_content .reason_Area_content {
+	max-width: 500px;
+}
+.child_content h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+.child_content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
 }
