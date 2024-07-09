@@ -25,16 +25,16 @@ body {
   padding: 20px 25px;
 }
 .secondary_btn {
-	box-sizing: border-box;
-	border: 1px solid rgb(13, 19, 33);
-	border-radius: 8px;
-	opacity: 0.8;
-	background: #ffffff;
-	color: rgba(13, 19, 33, 0.9);
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 23px;
-	padding: 15px 25px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  background: #ffffff;
+  color: rgba(13, 19, 33, 0.9);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 15px 25px;
 }
 
 /* header area Styles */
@@ -78,12 +78,12 @@ body {
 
 /* Reason Area Styles  */
 #Reason_Area {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 200px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  text-align: center;
 }
 #Reason_Area h3 {
   font-size: 32px;
@@ -108,7 +108,7 @@ body {
   margin: 100px 0;
 }
 #Reason_Area .child_content .reason_Area_content {
-	max-width: 500px;
+  max-width: 500px;
 }
 .child_content h4 {
   color: rgba(13, 19, 33, 0.7);
@@ -118,36 +118,88 @@ body {
   margin-bottom: 15px;
 }
 .child_content p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
 }
 
 /* inspiration Area Styles  */
 #inspiration_Area {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-#inspiration_Area h2 {
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    margin: 25px 0;
+.heading-2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin: 25px 0;
 }
-#inspiration_Area p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 40px;
 }
 #inspiration_Area .video {
-	border-radius: 8px;
+  border-radius: 8px;
 }
 #inspiration_Area .video iframe {
-	width: 90vw;
-	height: 70vh;
-	border-radius: 16px;
+  width: 90vw;
+  height: 70vh;
+  border-radius: 16px;
+}
+
+/* currentTarget Area Styles  */
+#currentTarget_Area {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 100px 0;
+}
+.learningTech {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  margin-top: 50px;
+}
+.learningTech_child {
+  max-width: 300px;
+  border-radius: 16px;
+  padding: 40px;
+}
+.learningTech_child img {
+  margin: 20px;
+}
+.learningTech_child h4 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.learningTech_child p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin: 10px 0;
+}
+.learningTech_child a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+  margin: 25px 0;
+}
+.learningTech_child.child1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.learningTech_child.child2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+.learningTech_child.child3 {
+    background: rgba(255, 223, 0, 0.05);
 }
