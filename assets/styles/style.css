@@ -9,6 +9,7 @@ body {
   width: 100%;
   color: rgb(13, 19, 33);
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 .content {
   max-width: 998px;
@@ -72,8 +73,9 @@ body {
   opacity: 0.7;
   margin-bottom: 25px;
 }
-#Banner_Area button {
+#Banner_Area a {
   margin-bottom: 40px;
+  text-decoration: none;
 }
 
 /* Reason Area Styles  */
@@ -198,8 +200,50 @@ body {
   background: rgba(255, 76, 30, 0.05);
 }
 .learningTech_child.child2 {
-    background: rgba(0, 76, 232, 0.05);
+  background: rgba(0, 76, 232, 0.05);
 }
 .learningTech_child.child3 {
-    background: rgba(255, 223, 0, 0.05);
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/* contact Area Styles  */
+#contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px auto;
+  background: url(../images/handshake.jpg);
+  padding: 150px;
+  width: 100%;
+  max-width: 1140px;
+  border-radius: 16px;
+}
+#contact .heading-2 {
+  color: rgb(255, 255, 255);
+}
+#contact .paragraph {
+  color: rgb(255, 255, 255);
+}
+#contact form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+#contact form input {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  max-width: 300px;
+  width: 100%;
+}
+#contact form input[type="text"] {
+  padding: 12px 20px;
+}
+#contact form input[type="submit"] {
+  width: auto;
+  font-size: 20px;
+  font-weight: 600;
 }
