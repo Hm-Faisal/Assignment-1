@@ -247,3 +247,19 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
+/* footer Area styles  */
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+}
+footer p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+footer .icon a {
+	margin-right: 15px;
+}
